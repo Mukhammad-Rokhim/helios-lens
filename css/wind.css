@@ -75,3 +75,82 @@ border-bottom: 2px solid chocolate;
   align-items: center;
   justify-content: center;
 }
+/* HERO-START */
+.hero {
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.hreo-container {
+max-width: 944px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-left: 20px;
+padding-right: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.hero-img{
+  margin-bottom: 80px;
+}
+
+.hero-title {
+min-width: 654px;
+height: 100%;
+font-weight: 600;
+font-size: 40px;
+line-height: 150%;
+letter-spacing: 0%;
+margin-bottom: 50px;
+}
+
+.hero-text {
+max-width: 864px;
+width: 100%;
+font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0%;
+margin-bottom: 60px;
+}
+
+.hero-list {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.hero-item:not(:last-child) {
+margin-right: 20px;
+}
+
+.btn {
+border: 0;
+padding: 4px 20px;
+border-radius: 22px;
+border: 1px solid #000;
+background-color: transparent;
+cursor: pointer;
+font-family:' Open Sans', serif;
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+transition: all 0.4s ease;
+}
+
+.btn:hover{
+  background-color: black;
+  color: #fff;
+}
+
+.btn:active{
+  opacity: 0.6;
+}
+/* HERO-END */
